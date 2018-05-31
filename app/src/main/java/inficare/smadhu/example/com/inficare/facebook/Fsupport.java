@@ -13,7 +13,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.squareup.picasso.Picasso;
 
-import inficare.smadhu.example.com.inficare.Facebook;
 import inficare.smadhu.example.com.inficare.R;
 
 public class Fsupport extends AppCompatActivity {
@@ -28,14 +27,14 @@ public class Fsupport extends AppCompatActivity {
         FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
         if(user !=null){
             String name=user.getDisplayName();
-           // String uid=user.getUid();
             Uri uri=user.getPhotoUrl();
+           // String uid=user.getUid();
             //String email=user.getEmail();
             //String ph=user.getPhoneNumber();
             textView.setText(name);
-            Picasso.with(Fsupport.this).load("https://graph.facebook.com/" + name+ "/picture?type=large").into(im);
+            //Picasso.with(Fsupport.this).load("https://graph.facebook.com/" + name+ "/picture?type=large").into(im);
 
-         //   Picasso.with(Fsupport.this).load(uri).into(im);
+           Picasso.with(Fsupport.this).load(uri).into(im);
         }
         else {
             goLoginScreen();

@@ -1,4 +1,4 @@
-package inficare.smadhu.example.com.inficare;
+package inficare.smadhu.example.com.inficare.facebook;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -26,6 +26,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 import java.util.Arrays;
 
+import inficare.smadhu.example.com.inficare.R;
 import inficare.smadhu.example.com.inficare.facebook.Fsupport;
 
 public class Facebook extends AppCompatActivity {

@@ -30,6 +30,7 @@ dependencies {
     //.. compile 'com.facebook.android:facebook-android-sdk:4.20.0'
     compile 'com.squareup.picasso:picasso:2.5.0'
     compile 'com.facebook.android:facebook-android-sdk:4.20.0'
+    compile 'com.github.f0ris.sweetalert:library:1.5.1'
 }
 
 apply plugin: 'com.google.gms.google-services'

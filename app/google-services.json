@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "794043372838",
+    "firebase_url": "https://loginwithfacebook-be13e.firebaseio.com",
+    "project_id": "loginwithfacebook-be13e",
+    "storage_bucket": "loginwithfacebook-be13e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794043372838:android:3d147ac040a46635",
+        "android_client_info": {
+          "package_name": "com.example.smadhu.loginwithfacebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794043372838-qqupaktbgqm56pbk9kij1bhl1l66lte4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smadhu.loginwithfacebook",
+            "certificate_hash": "0d71457e3b84a300ef081aa7e3297c9961f09c9f"
+          }
+        },
+        {
+          "client_id": "794043372838-l1ep56r0huqhrednng4rt3ludjahn22d.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "794043372838-l1ep56r0huqhrednng4rt3ludjahn22d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASYSGkpUA2R30ThSHLwFpc50ij7Q-KpFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794043372838-l1ep56r0huqhrednng4rt3ludjahn22d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794043372838:android:9cc8f7b8914793be",
+        "android_client_info": {
+          "package_name": "inficare.smadhu.example.com.inficare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794043372838-jt15n6nfm34atfcu302io2s0a6mtldci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "inficare.smadhu.example.com.inficare",
+            "certificate_hash": "0d71457e3b84a300ef081aa7e3297c9961f09c9f"
+          }
+        },
+        {
+          "client_id": "794043372838-l1ep56r0huqhrednng4rt3ludjahn22d.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "794043372838-l1ep56r0huqhrednng4rt3ludjahn22d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASYSGkpUA2R30ThSHLwFpc50ij7Q-KpFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794043372838-l1ep56r0huqhrednng4rt3ludjahn22d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

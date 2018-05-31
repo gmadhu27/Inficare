@@ -17,9 +17,11 @@
         android:layout_below="@+id/imgg"
         android:onClick="Logout"
         android:text="Log out"/>
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+   <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:id="@+id/imgg"
+        android:paddingHorizontal="10dp"
         android:layout_below="@+id/textt"/>
+
 </RelativeLayout>

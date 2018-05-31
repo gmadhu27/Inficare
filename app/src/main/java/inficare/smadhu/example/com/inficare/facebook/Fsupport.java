@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.facebook.login.LoginManager;
+import com.facebook.login.widget.ProfilePictureView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.squareup.picasso.Picasso;
@@ -18,6 +19,7 @@ import inficare.smadhu.example.com.inficare.R;
 public class Fsupport extends AppCompatActivity {
     TextView textView;
     ImageView im;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,13 +30,12 @@ public class Fsupport extends AppCompatActivity {
         if(user !=null){
             String name=user.getDisplayName();
             Uri uri=user.getPhotoUrl();
-           // String uid=user.getUid();
-            //String email=user.getEmail();
-            //String ph=user.getPhoneNumber();
-            textView.setText(name);
-            //Picasso.with(Fsupport.this).load("https://graph.facebook.com/" + name+ "/picture?type=large").into(im);
+            String uid=user.getUid();
 
-           Picasso.with(Fsupport.this).load(uri).into(im);
+            textView.setText(name);
+
+            Picasso.with(Fsupport.this).load("https://graph.facebook.com/" + uid+ "/picture?type=large").into(im);
+           //Picasso.with(Fsupport.this).load(uri).into(im);
         }
         else {
             goLoginScreen();

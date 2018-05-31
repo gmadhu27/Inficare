@@ -4,23 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Facebook">
-
-    <com.facebook.login.widget.LoginButton
-        android:id="@+id/login_button"
+    tools:context=".facebook.Fsupport">
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_gravity="center_horizontal" />
-
-    <ProgressBar
+        android:text="hello"
+        android:id="@+id/textt"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgg"
+        android:onClick="Logout"
+        android:text="Log out"/>
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/progressBar1"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        style="?android:attr/progressBarStyleLarge"
-        android:indeterminate="true"
-        android:visibility="gone"/>
+        android:id="@+id/imgg"
+        android:layout_below="@+id/textt"/>
 </RelativeLayout>
